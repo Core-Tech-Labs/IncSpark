@@ -1,0 +1,15 @@
+application: incspark-nevo08
+version: 1-0-test
+runtime: php
+api_version: 1.0
+
+handlers:
+# Serve images as static resources.
+- url: /(.+\.(gif|png|jpg))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg)$
+  application_readable: true
+
+# Serve php scripts.
+- url: /(.+\.php)$
+  script: \1
