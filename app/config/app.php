@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'debug' => false,
+	'debug' => true, //Show error logs on browser.
 
 	/*
 	|--------------------------------------------------------------------------

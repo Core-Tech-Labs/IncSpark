@@ -7,7 +7,7 @@ class BaseController extends Controller {
 	 *
 	 * @return void
 	 */
-	protected function setupLayout()
+	protected function indexPage()
 	{
 		if ( ! is_null($this->layout))
 		{
