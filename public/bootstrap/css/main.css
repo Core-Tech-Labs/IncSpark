@@ -10,6 +10,10 @@
 */
 
 /*
+    * All styles in this document starts with #comestic.(style) for better reference.
+*/
+
+/*
     * Header
     *
 */
@@ -18,13 +22,16 @@ header{
     
 }
 
-div.logo{
+#comestic-space{
     
 }
 
-nav.menu-nav{
-    
+#comestic-login{
+    position:relative;
+    margin:0 20px;
+    padding:0 25px;
 }
+
 
 /*
     * Body
