@@ -39,7 +39,10 @@ header{
 */
 
 body{
-    
+    background:#eee;
 }
 
+#comestic-container-body{
+   background:#fff;
+}
 
