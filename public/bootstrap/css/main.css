@@ -46,3 +46,13 @@ body{
    background:#fff;
 }
 
+/*
+    * Footer
+    *
+*/
+
+#comestic-footer-copyright{
+    float:left;
+    position:relative;
+    
+}
