@@ -6,5 +6,5 @@
     
       
     </body>
- {{-- @include("footer")--}}
+ @include("template/footer")
 </html>

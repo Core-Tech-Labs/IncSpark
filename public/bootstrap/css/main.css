@@ -51,8 +51,15 @@ body{
     *
 */
 
+#comestic-footer-container{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    background:#fff;
+    padding:20px 30px;
+}
+
 #comestic-footer-copyright{
     float:left;
     position:relative;
-    
 }
