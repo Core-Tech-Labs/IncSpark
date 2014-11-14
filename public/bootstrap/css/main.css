@@ -51,10 +51,27 @@ body{
     background:url(../images/insparkWelcomeImage);
     height:300px;
 }
+#comestic-incspark-img h3{
+    background:#777777;
+    padding:15px;
+    margin:8px 0;
+    width:70%;
+    float:left;
+    text-align: left;
+}
+#comestic-incspark-img h1{
+    background:#777777;
+    padding:15px;
+    margin:8px 0;
+    width:70%;
+    float:right;
+    text-align: right;
+}
 
 #comestic-featuredEvents{
     background:#eee;
-    padding:5px 0 30px;
+    padding:5px 0 100px;
+    
 }
 
 #comestic-featuredEvents-vo{
@@ -82,7 +99,6 @@ body{
 #comestic-thumbnail-ve1{
     background:#eee;
     width:100%;
-    min-width:250px;
     height:180px;
 }
 

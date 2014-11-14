@@ -1,8 +1,9 @@
 @include("template/header")
 
 <div class="width-container" id="comestic-container-body">
-      <div id="comestic-incspark-img">
-          
+    <div class="jumbotron" id="comestic-incspark-img">
+          <h3>Spark Your Interest.!</h3>
+          <h1>Find All Events In NYC here.</h1>
       </div>
     <div class="width-container" id="comestic-featuredEvents-vo">
         <div class="container">
