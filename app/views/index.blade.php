@@ -46,7 +46,7 @@
     </div>
     <div class="width-container" id="comestic-featuredEvents">
         <div class="container">
-        <h2>Filtered Categories</h2>
+        <h2>Browse By Categories</h2>
         <br/>
             <!-- md x4-->
             <div class="row">
