@@ -46,6 +46,35 @@ body{
    background:#fff;
 }
 
+#comestic-incspark-img{
+    width:100%;
+    background:url(../images/insparkWelcomeImage);
+    height:300px;
+}
+
+#comestic-featuredEvents{
+    background:#eee;
+    height:300px;
+    padding:5px 0 30px;
+}
+
+#comestic-featuredEvents-vo{
+    background:#285e8e;
+    padding:5px 0 30px;
+}
+
+#comestic-featuredEvents-ve{
+    background: #2d6ca2;
+    height:300px;
+    padding:5px 0 30px;
+}
+
+#comestic-thumbnail-vo{
+    background:#eee;
+    width:100%;
+    height:200px;
+}
+
 /*
     * Footer
     *
@@ -53,10 +82,11 @@ body{
 
 #comestic-footer-container{
     position: absolute;
-    bottom:0;
+/*    bottom:0;*/
     width:100%;
-    background:#fff;
+    background:#444;
     padding:20px 30px;
+    color:#f8f8f8;
 }
 
 #comestic-footer-copyright{
