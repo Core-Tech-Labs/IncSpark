@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-          <title>The World's First Entrepreneurial Events Portal</title>
+          <title>Inc Spark | The World's First Entrepreneurial Events Portal</title>
           <!-- Template
           
         <link type="text/css" rel="stylesheet" href="/bootstrap/css"/>
