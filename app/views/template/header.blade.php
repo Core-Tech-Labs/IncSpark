@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-          <title>Inc Spark | The World's First Entrepreneurial Events Portal</title>
+          <title>Inc Spark | Discover NYC's Entrepreneurial Events</title>
           <!-- Template
           
         <link type="text/css" rel="stylesheet" href="/bootstrap/css"/>
@@ -37,9 +37,9 @@
                 <!-- Desktop -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li ><a href="#">Nav Item 1</a></li>
-                        <li ><a href="#">Nav Item 2</a></li>
-                        <li ><a href="#">Nav Item 3</a></li>
+                        <li ><a href="#">About Us</a></li>
+                        <li ><a href="#">Featured Events</a></li>
+                        <li ><a href="#">Discover</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login | Sign Up
                                 <span class="caret"></span>
