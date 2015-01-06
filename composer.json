@@ -4,7 +4,8 @@
 	"keywords": ["Business", "events"],
 	"license": "no-license",
 	"require": {
-		"IncSpark": "1.0"
+		"IncSpark": "1.0",
+		"facebook/php-sdk-v4": "~4.0"
 	},
 	"autoload": {
 		"classmap": [
@@ -29,8 +30,12 @@
 			"php artisan key:generate"
 		]
 	},
+	"require" : {
+		"facebook/php-sdk" : "*"
+	},
 	"config": {
 		"preferred-install": "dist"
 	},
 	"minimum-stability": "stable"
+
 }
