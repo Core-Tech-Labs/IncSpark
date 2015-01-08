@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'Idg6vkxRbVI4CDec43EtRbsobFhWqcup',
+	'key' => 'u9XvO3RQ9qBUD9OAJGaVoJTF4Hd3mbGV',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -121,6 +121,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+                'Way\Generators\GeneratorsServiceProvider',
+                'Core\meetmeapi\meetmeServiceProvider',
 
 	),
 
@@ -188,6 +190,7 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+                'Meetup'          => 'Core\meetupapi\Facades\meetupFacades',
 
 	),
 

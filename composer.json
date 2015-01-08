@@ -3,11 +3,22 @@
 	"description": "IncSpark",
 	"keywords": ["Business", "events"],
 	"license": "no-license",
+        "version": "1.0.0",
+        "authors": [
+            {
+                "name": "Rudy Jessop",
+                "name": "Core Tech Labs",
+                "email" : "hello@rudyjessop.com"
+            }
+        ],
 	"require": {
 		"IncSpark": "1.0",
 		"facebook/php-sdk-v4": "~4.0"
 	},
 	"autoload": {
+                "psr-4":{
+                    "Core\\": "app/Core/"
+                },
 		"classmap": [
 			"app/commands",
 			"app/controllers",
@@ -33,6 +44,9 @@
 	"require" : {
 		"facebook/php-sdk" : "*"
 	},
+        "require-dev" :{
+                "way/generators": "~2.0"
+        },
 	"config": {
 		"preferred-install": "dist"
 	},

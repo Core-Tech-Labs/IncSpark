@@ -5,7 +5,7 @@ class EventsController extends BaseController{
     
     // Page setup
     public function eventsPage(){
-        return View::make();
+        return View::make('event.EventsIndex');
     }
     
     // API For events from other sources.
@@ -13,5 +13,4 @@ class EventsController extends BaseController{
         
     }
     
-    public function 
 }

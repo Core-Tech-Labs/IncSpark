@@ -48,8 +48,9 @@ body{
 
 #comestic-incspark-img{
     width:100%;
-    background:url(../images/insparkWelcomeImage);
+    background:url(../../images/insparkWelcomeImage.jpg) #285e8e bottom center no-repeat ;
     height:300px;
+    width:100%;
 }
 #comestic-incspark-img h3{
     background:#777777;
