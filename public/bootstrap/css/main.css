@@ -26,10 +26,29 @@ header{
     
 }
 
-#comestic-login{
+#comestic-login-info{
+    text-align: left;
+    padding:10px 0;
+}
+
+#comestic-login-input{
+    padding:10px 0;
+}
+
+#comestic-login-input input{
+    padding:5px 0;
+    margin:5px 0px;
+}
+
+#comestic-login-facebook{
     position:relative;
     margin:0 20px;
     padding:0 25px;
+}
+
+#comestic-login-holder{
+    padding: 10px 15px;
+    width:272px;
 }
 
 

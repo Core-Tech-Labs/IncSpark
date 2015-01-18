@@ -41,14 +41,41 @@
                         <li ><a href="#">Featured Events</a></li>
                         <li ><a href="#">Discover</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login | Sign Up
+                            @if(!empty($data))
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login | Sign Up</a>
                                 <span class="caret"></span>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Sub-menu1</a></li>
+                                <ul class="dropdown-menu" id="comestic-login-holder">
+                                    <li>
+                                        <form method="POST" action="">
+                                            <span id="comestic-login-info">Are you an Inc Spark User? <br>Login with...</span>
+                                            <div class="input-group" id="comestic-login-input">
+                                                <input type="text" class="form-control" placeholder="Username">
+                                                <input type="password" class="form-control" placeholder="Password">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-default">Login</button>
+                                                    <button type="button" class="btn btn-default">Register</button>
+                                                    <button type="button" class="btn btn-default">Forgot Info?</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </li>
                                     <li class="divider"></li>
-                                    <li id="comestic-login"><div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true"></div></li>
+                                    <span id="comestic-login-info">or you can login with....</span>
+                                    <li id="#comestic-login-facebook"><div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true"></div></li>
+                                    
                                 </ul>
-                            </a></li>
+                            </li>
+                            <li class="dropdown">
+                                @else
+                                <a href="#" data-toggle="dropdown">Hey Username </a>
+                                     <span class="caret"></span>
+                                     <ul class="dropdown-menu">
+                                         <li><a href="{{ url('logout') }}">Logout</a></li>
+                                         <li><a href="{{ url('user') }}">Edit </a></li>
+                                     </ul>
+                                @endif
+                            </a>
+                            </li>
                     </ul>
                 </div>
                 <!-- Desktop -->

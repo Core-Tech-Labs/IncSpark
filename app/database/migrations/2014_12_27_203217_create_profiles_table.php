@@ -14,8 +14,8 @@ class CreateProfilesTable extends Migration {
 	{
 		Schema::create('IncSparkProfiles', function($table)
                 {
-                    $table->increment('id');
-                    $table->integer('user_id')->unsigned;
+                    $table->increments('id');
+                    $table->integer('user_id')->unsigned();
                     $table->string('username');
                     $table->string('access_token');
                     $table->string('access_token_secret');
