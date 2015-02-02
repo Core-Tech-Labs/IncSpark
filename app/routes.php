@@ -3,6 +3,7 @@
 
 // Home and Static URI's
 Route::get('/', 'HomeController@indexPage');
+Route::get('/index', 'HomeController@indexPage');
 Route::get('about', 'InfoController@AboutPage');
 
 // Events URI from meetup api
