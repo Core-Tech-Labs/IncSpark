@@ -1,52 +1,51 @@
 {
-	"name": "IncSpark",
-	"description": "IncSpark",
-	"keywords": ["Business", "events"],
-	"license": "no-license",
-        "version": "1.0.0",
-        "authors": [
-            {
-                "name": "Rudy Jessop",
-                "name": "Core Tech Labs",
-                "email" : "hello@rudyjessop.com"
-            }
-        ],
-	"require": {
-		"IncSpark": "1.0",
-		"facebook/php-sdk-v4": "~4.0"
-	},
-        "require-dev" :{
-                "way/generators": "~2.0"
+    "name": "IncSpark",
+    "description": "IncSpark",
+    "keywords": [
+        "Business",
+        "events"
+    ],
+    "license": "no-license",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Core Tech Labs",
+            "email": "hello@rudyjessop.com"
+        }
+    ],
+    "require": {
+        "IncSpark": "1.0",
+        "facebook/php-sdk-v4": "~4.0",
+        "guzzlehttp/guzzle": "~5.2",
+        "bugsnag/bugsnag-laravel": "1.*"
+    },
+    "require-dev":{
+        "way/generators": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "app/Core/"
         },
-	"autoload": {
-                "psr-4":{
-                    "Core\\": "app/Core/"
-                },
-		"classmap": [
-			"app/commands",
-			"app/controllers",
-			"app/models",
-			"app/database/migrations",
-			"app/database/seeds",
-			"app/tests/TestCase.php"
-		]
-	},
-	"scripts": {
-		"post-install-cmd": [
-			"php artisan clear-compiled",
-			"php artisan optimize"
-		],
-		"post-update-cmd": [
-			"php artisan clear-compiled",
-			"php artisan optimize"
-		],
-		"post-create-project-cmd": [
-			"php artisan key:generate"
-		]
-	},
-	"config": {
-		"preferred-install": "dist"
-	},
-	"minimum-stability": "stable"
-
+        "classmap": [
+            "app/commands",
+            "app/controllers",
+            "app/models",
+            "app/database/migrations",
+            "app/database/seeds",
+            "app/tests/TestCase.php"
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan clear-compiled",
+            "php artisan optimize"
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
 }

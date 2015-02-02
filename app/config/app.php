@@ -123,6 +123,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
                 'Way\Generators\GeneratorsServiceProvider',
                 'Core\meetmeapi\meetmeServiceProvider',
+                'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
 
 	),
 
@@ -191,6 +192,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
                 'Meetup'          => 'Core\meetupapi\Facades\meetupFacades',
+                'Bugsnag' => 'Bugsnag\BugsnagLaravel\BugsnagFacade',
 
 	),
 
